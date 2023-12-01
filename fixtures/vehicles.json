@@ -1,0 +1,107 @@
+[
+  {
+    "model": "booking.vehicle",
+    "pk": 1,
+    "fields": {
+      "name": "SALOON CAR",
+      "passenger_capacity": 4,
+      "check_in_luggage_capacity": 2,
+      "hand_luggage_capacity": 1,
+      "image": "./vehicle_images/vehicle-benz-e-class.png",
+      "car_type": "single",
+      "is_car_available": true,
+      "identifier": "islamabad",
+      "price_per_km": 10
+    }
+  },
+  {
+    "model": "booking.vehicle",
+    "pk": 2,
+    "fields": {
+      "name": "ESTATE CAR",
+      "passenger_capacity": 3,
+      "check_in_luggage_capacity": 2,
+      "hand_luggage_capacity": 2,
+      "image": "./vehicle_images/vehicle-vw-sharan.png",
+      "car_type": "single",
+      "is_car_available": true,
+      "identifier": "peshawar",
+      "price_per_km": 8
+    }
+  },
+  {
+    "model": "booking.vehicle",
+    "pk": 3,
+    "fields": {
+      "name": "MPV",
+      "passenger_capacity": 2,
+      "check_in_luggage_capacity": 1,
+      "hand_luggage_capacity": 1,
+      "image": "./vehicle_images/vehicle-vw-pasta-state-2016.png",
+      "car_type": "single",
+      "is_car_available": true,
+      "identifier": "peshawar",
+      "price_per_km": 15
+    }
+  },
+  {
+    "model": "booking.vehicle",
+    "pk": 4,
+    "fields": {
+      "name": "MPV+.",
+      "passenger_capacity": 6,
+      "check_in_luggage_capacity": 2,
+      "hand_luggage_capacity": 2,
+      "image": "./vehicle_images/vehicle-vw-sharan.png",
+      "car_type": "single",
+      "is_car_available": true,
+      "identifier": "islamabad",
+      "price_per_km": 10
+    }
+  },
+  {
+    "model": "booking.vehicle",
+    "pk": 5,
+    "fields": {
+      "name": "12 PASSENGERS",
+      "passenger_capacity": 12,
+      "check_in_luggage_capacity": 6,
+      "hand_luggage_capacity": 6,
+      "image": "./vehicle_images/four-8seater.png",
+      "car_type": "multiple",
+      "is_car_available": true,
+      "identifier": "peshawar",
+      "price_per_km": 15
+    }
+  },
+  {
+    "model": "booking.vehicle",
+    "pk": 7,
+    "fields": {
+      "name": "10 PASSENGERS",
+      "passenger_capacity": 5,
+      "check_in_luggage_capacity": 2,
+      "hand_luggage_capacity": 2,
+      "image": "./vehicle_images/8seater-mpvplus.png",
+      "car_type": "multiple",
+      "is_car_available": true,
+      "identifier": "islamabad",
+      "price_per_km": 13
+    }
+  },
+  {
+    "model": "booking.vehicle",
+    "pk": 8,
+    "fields": {
+      "name": "16 PASSENGERS",
+      "passenger_capacity": 8,
+      "check_in_luggage_capacity": 4,
+      "hand_luggage_capacity": 4,
+      "image": "./vehicle_images/three-8seater-mpvplus.png",
+      "car_type": "multiple",
+      "is_car_available": true,
+      "identifier": "peshawar",
+      "price_per_km": 12
+    }
+  }
+]
